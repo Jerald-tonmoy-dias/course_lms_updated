@@ -1,0 +1,78 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .single-contact-info .contact-img {
+        display: none;
+    }
+
+    .footer-area .footer-top .widget .company-img {
+        margin: 0 auto 20px auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .footer-area .footer-top .widget .company-img {
+        width: 60px;
+    }
+
+    .cat-text {
+        display: none;
+    }
+
+    .vector1 {
+        display: none;
+    }
+
+    .vector2 {
+        display: none;
+    }
+
+    .vector3 {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .filter-opt {
+        display: none;
+    }
+
+    .filter-section .select-item {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo-box {
+        margin-right: 20px;
+    }
+
+    .btn-box .btn {
+        margin-right: 0px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .cat-text {
+        display: none;
+    }
+
+    .logo-box {
+        margin-right: 20px;
+    }
+
+    .btn-box .btn {
+        margin-right: 10px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+    }
+
+    .search-box .inputBox {
+        padding: 10px 84px 10px 20px;
+    }
+}
