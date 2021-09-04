@@ -1,5 +1,5 @@
 /* Theme Default */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700,900&display=swap");
 
 /* variables */
 :root {
@@ -17,7 +17,9 @@
   --lite-tomatto: #ffe7df;
   --lite-black: #233d63;
   --white: #ffffff;
+  --orange-color: #ff6f3c;
   --border-color: #e9e9e9;
+  --sky-color: #cfeafe;
 }
 
 
@@ -29,32 +31,27 @@ body {
 }
 
 h1 {
-  color: #2b2e35;
   font-size: 60px;
 }
 
 h2 {
-  color: #2b2e35;
   font-size: 48px;
 }
 
 h3 {
-  color: #2b2e35;
-  font-size: 30px;
+  font-size: 36px;
 }
 
 h4 {
-  color: #2b2e35;
   font-size: 24px;
 }
 
 h5 {
-  color: #2b2e35;
+
   font-size: 18px;
 }
 
 h6 {
-  color: #2b2e35;
   font-size: 16px;
 }
 
@@ -64,6 +61,7 @@ h3,
 h4,
 h5,
 h6 {
+  color: #2b2e35;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-transform: capitalize;
@@ -127,6 +125,10 @@ img {
   color: var(--cyan);
 }
 
+.text-sky {
+  color: var(--sky-color);
+}
+
 .text-lite-cyan {
   color: var(--lite-cyan);
 }
@@ -147,12 +149,16 @@ img {
   color: var(--tomatto);
 }
 
+.text-orange {
+  color: var(--orange-color);
+}
+
 .text-lite-tomatto {
   color: var(--lite-tomatto);
 }
 
 .text-lite-black {
-  color: var(--lite-black);
+  color: var(--lite-black) !important;
 }
 
 /* bg color */
@@ -164,8 +170,16 @@ img {
   background: var(--lite-green);
 }
 
+.bg-soft-green {
+  background: var(--soft-green);
+}
+
 .bg-red {
   background: var(--red);
+}
+
+.bg-sky {
+  background: var(--sky-color);
 }
 
 .bg-lite-red {
@@ -196,6 +210,10 @@ img {
   background: var(--tomatto);
 }
 
+.bg-orange {
+  background: var(--orange-color);
+}
+
 .bg-lite-tomatto {
   background: var(--lite-tomatto);
 }
@@ -204,6 +222,7 @@ img {
   background: var(--lite-black);
 }
 
+/* preloader inner */
 .preloader-inner {
   position: fixed;
   left: 0;
@@ -327,6 +346,18 @@ img {
   transition: .3s;
 }
 
+.btn2 {
+  background-color: var(--white);
+  border: 1px solid var(--green);
+  color: var(--green);
+}
+
+.btn2:hover {
+  background-color: var(--green) !important;
+  border: 1px solid transparent;
+  color: var(--white) !important;
+}
+
 .btn3 {
   background: var(--tomatto) !important;
   color: var(--white);
@@ -442,6 +473,10 @@ img {
   -webkit-animation: rotted 5s infinite ease-in-out;
   animation: rotted 5s infinite ease-in-out;
   animation-direction: alternate-reverse;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 @-webkit-keyframes rotted {

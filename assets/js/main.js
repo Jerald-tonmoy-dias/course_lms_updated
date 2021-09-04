@@ -112,6 +112,33 @@
         ]
       });
 
+
+      
+    // MouseHover Animation home 2 hero section
+    var hoverLayer = $(".hero-section2");
+    var heroImgOne = $(".hero2-shape");
+    hoverLayer.mousemove(function (e) {
+      var valueX = (e.pageX * -1) / 100;
+      var valueY = (e.pageY * -1) / 120;
+      heroImgOne.css({
+        transform: "translate3d(" + valueX + "px," + valueY + "px, 0)"
+      
+      });
+    });
+    // init Isotope
+    var $grid = $('.grid').isotope({
+      itemSelector: '.grid-item',
+      percentPosition: true,
+    });
+    // filter items on button click
+    $('.filter-button-group').on( 'click', 'button', function() {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({ filter: filterValue });
+    $(this).siblings().removeClass('active');
+    $(this).addClass('active');
+
+    });
+
     /* end point */
     });
 
