@@ -1,5 +1,6 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
+
     h1 {
         font-size: 48px;
     }
@@ -61,6 +62,33 @@
 
     }
 
+    .lms-sidebar {
+        width: 250px;
+    }
+
+    #nav-icon2.open span:nth-child(5) {
+        left: 5px;
+        top: 12px;
+    }
+
+    #nav-icon2.open span:nth-child(6) {
+        left: calc(50% - 5px);
+        top: 12px;
+    }
+
+    #nav-icon2 {
+        width: 30px;
+    }
+
+    #nav-icon2::after {
+        top: -11px;
+        left: -8px;
+    }
+
+    #nav-icon2 span {
+        height: 3px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -107,6 +135,9 @@
 }
 
 @media (max-width: 992px) {
+    .logo-box .logo {
+        width: 135px;
+    }
 
     /* categories section */
     .cat-wrapper li:hover .sublist {
@@ -114,6 +145,9 @@
         visibility: visible;
     }
 
+    .header-cat-wrap .cat-text {
+        display: none !important;
+    }
 
 
     /* .all-course-section extended */
@@ -150,8 +184,12 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
+    .header-cat-wrap .cat-text {
+        display: none !important;
+    }
+
     .logo-box {
-        margin-right: 20px;
+        margin-right: 54px;
     }
 
     .btn-box .btn {
@@ -174,8 +212,8 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1600px) {
-    .cat-text {
-        display: none;
+    .header-cat-wrap .cat-text {
+        display: none !important;
     }
 
     .logo-box {
@@ -197,6 +235,19 @@
     .video-section {
         padding: 90px 0px 210px 0;
     }
+
+    .info-adrs .icon-img {
+        margin-right: 10px;
+        width: 30px;
+    }
+
+    .info-adrs .title {
+        font-size: 14px;
+    }
+
+    .info-adrs .subtitle {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1919px) {
@@ -206,5 +257,12 @@
 
     .info-adrs .icon-img {
         margin-bottom: 10px;
+    }
+}
+
+/* larger device  */
+@media (min-width: 992px) {
+    #nav-icon2 {
+        display: none;
     }
 }

@@ -37,18 +37,60 @@
             </div>
         </div>
     </div>
-    <header class="header">
+    <header class="header ">
+        <!-- sidbar bar nav  -->
+        <div id="nav-icon2">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- header main content -->
         <div class="row align-items-center">
-            <div class="col-xl-3 col-lg-12 d-flex justify-content-xl-around justify-content-center">
+            <div class="col-xl-3 col-lg-4 col-sm-3 col-12 d-flex justify-content-xl-around justify-content-center">
                 <div class="logo-box">
-                    <img src="assets/images/logo.png" alt="" class="logo">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="" class="logo"></a>
                 </div>
-                <div class="cat-icon-wrap">
-                    <span class="cat-btn"> <i class="fas fa-align-center"></i></span>
-                    <span class="cat-text">categories</span>
+                <!-- categoies for large device  -->
+                <div class="header-cat-wrap position-relative d-none d-lg-block">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="cat-btn"> <i class="fas fa-align-center"></i></span>
+                                <span class="cat-text text-capitalize">categories</span>
+                            </a>
+                            <ul class="dropdown-categories">
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">Education</a></li>
+                                <li class="has-sublist"><span class="la la-angle-right menu-collapse"></span>
+                                    <a href="#">Business</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Finance and Banking</a></li>
+                                        <li><a href="#">Geology</a></li>
+                                        <li><a href="#">marketing</a></li>
+                                        <li><a href="#">Psychology</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Photography</a></li>
+                                <li class="has-sublist"><a href="#">Music</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Finance and Banking</a></li>
+                                        <li><a href="#">Geology</a></li>
+                                        <li><a href="#">marketing</a></li>
+                                        <li><a href="#">Psychology</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Mobile Apps Development</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 mt-4 mt-xl-0">
+            <div class="col-xl-4 col-lg-8 col-sm-8 col-12 mt-4 mt-sm-0">
                 <div class="search-box position-relative">
                     <form action="">
                         <input type="text" class="inputBox" placeholder="start typing your search">
@@ -56,7 +98,8 @@
                     </form>
                 </div>
             </div>
-            <div class="col-xl-5 col-lg-8 d-flex justify-content-lg-around justify-content-around mt-4 mt-xl-0">
+            <div
+                class="col-xl-5 col-lg-8 d-xl-flex d-none justify-content-lg-around align-items-center justify-content-around mt-4 mt-xl-0">
                 <button class="btn mb-2 mb-xl-0">instructor</button>
                 <button class="btn btn1">become student</button>
                 <div class="info-adrs d-flex flex-wrap align-items-center justify-content-center">
@@ -70,131 +113,47 @@
         </div>
     </header>
 
-    <!-- sidebar goes here -->
-    <div class="lms-sidebar d-none">
-        <button class="close-btn"><i class="fas fa-times"></i></button>
-        <!-- <div id="nav-icon1">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div> -->
-        <div class="row">
-            <div class="col-12  d-flex align-items-center justify-content-center mt-md-0 mt-20">
-                <div class="search-box position-relative w-100">
-                    <form action="">
-                        <input type="text" class="inputBox" placeholder="start typing your search">
-                        <button class="btn">search</button>
-                    </form>
-                </div>
-            </div>
-            <div class="col-12 d-lg-flex align-items-center justify-content-xl-around justify-content-center  mt-10">
-                <div class="btn-box d-flex justify-content-center flex-wrap">
-                    <button class="btn mb-2 mb-xl-0">instructor</button>
-                    <button class="btn btn1">become student</button>
-                </div>
-            </div>
-            <div class="col-12 d-flex align-items-center mt-20">
-                <div class="info-adrs d-flex flex-wrap align-items-center justify-content-center">
-                    <img src="assets/images/header-icon.png" alt="" class="icon-img mb-2 mb-xl-0">
-                    <div class="content-box">
-                        <span class="title">hot line 24/7</span>
-                        <span class="subtitle">(800) 01-8588247</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-12">
-            <div class="v3-categories v3-caatee rounded-0 position-absolute w-100" id="catee-wraper">
-                <!-- start -->
-                <ul class="cat-wrapper caat-wraaper pt-3 pb-4">
-                    <!-- mega -->
-                    <li class="has-sublist d-flex align-items-center">
-                        <span class="cat-icon"><i class="fas fa-laptop-code"></i></span><a href="#">web design</a>
-
-                        <div class="mega-wrapper">
-                            <ul class="mega-menu">
-                                <li class="mega-item">
-                                    <ul>
-                                        <li class="title mt-10">Html</li>
-                                        <li><a href="#">css</a></li>
-                                        <li><a href="#">Javascript</a></li>
-                                        <li><a href="#">jquery</a></li>
-                                    </ul>
-                                </li>
-                                <li class="mega-item">
-                                    <ul>
-                                        <li class="title mt-10">Html</li>
-                                        <li><a href="#">css</a></li>
-                                        <li><a href="#">Javascript</a></li>
-                                        <li><a href="#">jquery</a></li>
-                                    </ul>
-                                </li>
-                                <li class="mega-item">
-                                    <ul>
-                                        <li class="title mt-10">Html</li>
-                                        <li><a href="#">css</a></li>
-                                        <li><a href="#">Javascript</a></li>
-                                        <li><a href="#">jquery</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </li>
-                    <!-- sublist -->
-                    <li class="has-sublist  d-flex align-items-center"> <span class="cat-icon"> <i
-                                class="fab fa-searchengin"></i></span>
-                        <a href="#">seo</a>
-                        <ul class="sublist">
-                            <li class="title">Headphone</li>
-                            <li><a href="#">wirelsess Headphones</a></li>
-                            <li><a href="#">black Headphones</a></li>
-                            <li><a href="#">smart watch</a></li>
-                            <li><a href="#">laptop Headphones</a></li>
-                        </ul>
-                    </li>
-                    <li class="has-sublist  d-flex align-items-center"> <span class="cat-icon">
-                            <i class="fab fa-wordpress"></i>
-                        </span>
-                        <a href="#">wordpress</a>
-                        <ul class="sublist">
-                            <li class="title">Headphone</li>
-                            <li><a href="#">wirelsess Headphones</a></li>
-                            <li><a href="#">black Headphones</a></li>
-                            <li><a href="#">smart watch</a></li>
-                            <li><a href="#">laptop Headphones</a></li>
-                        </ul>
-                    </li>
-                    <li class="has-sublist  d-flex align-items-center"> <span class="cat-icon">
-                            <i class="fab fa-microsoft"></i>
-                        </span>
-                        <a href="#">Ms Office</a>
-                        <ul class="sublist">
-                            <li class="title">Headphone</li>
-                            <li><a href="#">wirelsess Headphones</a></li>
-                            <li><a href="#">black Headphones</a></li>
-                            <li><a href="#">smart watch</a></li>
-                            <li><a href="#">laptop Headphones</a></li>
-                        </ul>
-                    </li>
-                    <li class="has-sublist  d-flex align-items-center"> <span class="cat-icon">
-                            <i class="fas fa-quidditch"></i>
-                        </span>
-                        <a href="#">ui & ux</a>
-                        <ul class="sublist">
-                            <li class="title">Headphone</li>
-                            <li><a href="#">wirelsess Headphones</a></li>
-                            <li><a href="#">black Headphones</a></li>
-                            <li><a href="#">smart watch</a></li>
-                            <li><a href="#">laptop Headphones</a></li>
-                        </ul>
-                    </li>
+    <!-- categories sidebar for mobile device -->
+    <div class="lms-sidebar" id="lms-sidebar">
+        <img src="assets/images/logo.png" alt="" class="cat-logo">
+        <ul class="lms-categories mt-4">
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Education</a></li>
+            <li class="has-sublist"><span class="la la-angle-right menu-collapse"></span>
+                <a href="#">Business</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Finance and Banking</a></li>
+                    <li><a href="#">Geology</a></li>
+                    <li><a href="#">marketing</a></li>
+                    <li><a href="#">Psychology</a></li>
                 </ul>
-                <!-- end -->
+            </li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Photography</a></li>
+            <li class="has-sublist"><a href="#">Music</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Finance and Banking</a></li>
+                    <li><a href="#">Geology</a></li>
+                    <li><a href="#">marketing</a></li>
+                    <li><a href="#">Psychology</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Mobile Apps Development</a></li>
+        </ul>
 
+        <div class="info-adrs d-flex flex-wrap align-items-center justify-content-center mt-4">
+            <img src="assets/images/header-icon.png" alt="" class="icon-img mb-2 mb-xl-0">
+            <div class="content-box text-left text-lg-center text-xl-left">
+                <span class="title">hot line 24/7</span>
+                <span class="subtitle">(800) 01-8588247</span>
             </div>
         </div>
+
+        <a href="#" class="btn w-100 mt-4 rounded">instructor</a>
+        <a href="#" class="btn btn1 w-100 mt-4">become student</a>
+        <a href="#" class="btn  w-100 mt-4 rounded">login</a>
+        <a href="#" class="btn btn1 w-100 mt-4">register</a>
+
     </div>
 
     <!-- breadcrub section-->

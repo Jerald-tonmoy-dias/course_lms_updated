@@ -45,6 +45,20 @@
     //     time: 1000
     // });
 
+
+      // sidebar nav opener
+    $('#nav-icon2').click(function(){
+      $(this).toggleClass('open');
+      $("#lms-sidebar").toggleClass('open');
+    });
+
+    // categories sidebar sublist
+    $('.lms-categories .has-sublist').click(function(){
+      $(this).find(".sub-menu").toggleClass('active');
+      $(this).toggleClass('changed');
+    });
+
+
     // vdo popup activation
     $('.popup-link').magnificPopup({
         type: 'iframe',
