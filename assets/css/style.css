@@ -209,6 +209,7 @@
 .lms-sidebar {
 	position: fixed;
 	height: 100%;
+	overflow-y: scroll;
 	z-index: 9999;
 	top: 0;
 	left: 0;
@@ -2934,4 +2935,33 @@
 		-webkit-transform: rotate(180);
 		transform: rotate(180deg);
 	}
+}
+
+/* single instructor page */
+.single-main-instructor {
+	margin-top: -19%;
+	padding: 50px 60px 20px 60px;
+}
+
+.single-main-instructor .ins-img {
+	width: 160px;
+}
+
+.live-chat {
+	position: absolute;
+	top: 14%;
+	right: 5%;
+}
+
+.header-sm-img {
+	width: 35px;
+}
+
+.position-badge-circle {
+	position: absolute;
+	top: -4px;
+	right: -3px;
+	padding: 3px;
+	line-height: 1;
+	font-size: 10px;
 }

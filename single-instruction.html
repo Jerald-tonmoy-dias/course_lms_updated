@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Page Title -->
+    <title>Single Instruction</title>
+
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="favicon.png">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awsome-all.min.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class="position-relative">
+    <img src="assets/images/book-vec.png" class="vector1" alt="">
+    <img src="assets/images/course-vec1.png" class="vector2" alt="">
+    <img src="assets/images/course-vec2.png" class="vector33" alt="">
+
+    <!-- Preloader Starts -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header ">
+        <!-- sidbar bar nav  -->
+        <div id="nav-icon2">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- header main content -->
+        <div class="row align-items-center">
+            <div class="col-xl-3 col-lg-4 col-sm-3 col-12 d-flex justify-content-xl-around justify-content-center">
+                <div class="logo-box">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="" class="logo"></a>
+                </div>
+                <!-- categoies for large device  -->
+                <div class="header-cat-wrap position-relative d-none d-lg-block">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="cat-btn"> <i class="fas fa-align-center"></i></span>
+                                <span class="cat-text text-capitalize">categories</span>
+                            </a>
+                            <ul class="dropdown-categories">
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">Education</a></li>
+                                <li class="has-sublist"><span class="la la-angle-right menu-collapse"></span>
+                                    <a href="#">Business</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Finance and Banking</a></li>
+                                        <li><a href="#">Geology</a></li>
+                                        <li><a href="#">marketing</a></li>
+                                        <li><a href="#">Psychology</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Photography</a></li>
+                                <li class="has-sublist"><a href="#">Music</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Finance and Banking</a></li>
+                                        <li><a href="#">Geology</a></li>
+                                        <li><a href="#">marketing</a></li>
+                                        <li><a href="#">Psychology</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Mobile Apps Development</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-8 col-sm-8 col-12 mt-4 mt-sm-0">
+                <div class="search-box position-relative">
+                    <form action="">
+                        <input type="text" class="inputBox" placeholder="start typing your search">
+                        <button class="btn">search</button>
+                    </form>
+                </div>
+            </div>
+            <div
+                class="col-xl-5 col-lg-8 d-xl-flex d-none justify-content-lg-around align-items-center justify-content-around mt-4 mt-xl-0">
+                <button class="btn mb-2 mb-xl-0">my courses</button>
+                <div>
+                    <a href="#" class="rounded-circle p-2 bg-lite-green text-green mr-3 position-relative">
+                        <span class="badge bg-green text-white rounded-circle position-badge-circle">1</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <a href="#" class="rounded-circle p-2 bg-lite-tomatto text-red mr-3 position-relative">
+                        <span class="badge bg-red text-white rounded-circle position-badge-circle">1</span>
+                        <i class="fas fa-bell"></i>
+                    </a>
+                    <a href="#" class="rounded-circle p-2 bg-lite-cyan text-cyan position-relative">
+                        <span class="badge bg-cyan text-white rounded-circle position-badge-circle">1</span>
+                        <i class="fas fa-heart"></i>
+                    </a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <img src="assets/images/small-user.png" alt="" class="header-sm-img mr-2">
+                    <span class="text-capitalize">tonmoy khan</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- categories sidebar for mobile device -->
+    <div class="lms-sidebar" id="lms-sidebar">
+        <img src="assets/images/logo.png" alt="" class="cat-logo">
+        <ul class="lms-categories mt-4">
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Education</a></li>
+            <li class="has-sublist"><span class="la la-angle-right menu-collapse"></span>
+                <a href="#">Business</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Finance and Banking</a></li>
+                    <li><a href="#">Geology</a></li>
+                    <li><a href="#">marketing</a></li>
+                    <li><a href="#">Psychology</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Photography</a></li>
+            <li class="has-sublist"><a href="#">Music</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Finance and Banking</a></li>
+                    <li><a href="#">Geology</a></li>
+                    <li><a href="#">marketing</a></li>
+                    <li><a href="#">Psychology</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Mobile Apps Development</a></li>
+        </ul>
+
+        <div class="info-adrs d-flex flex-wrap align-items-center justify-content-center mt-4">
+            <img src="assets/images/header-icon.png" alt="" class="icon-img mb-2 mb-xl-0">
+            <div class="content-box text-left text-lg-center text-xl-left">
+                <span class="title">hot line 24/7</span>
+                <span class="subtitle">(800) 01-8588247</span>
+            </div>
+        </div>
+
+        <a href="#" class="btn w-100 mt-4 rounded">instructor</a>
+        <a href="#" class="btn btn1 w-100 mt-4">become student</a>
+        <a href="#" class="btn  w-100 mt-4 rounded">login</a>
+        <a href="#" class="btn btn1 w-100 mt-4">register</a>
+
+    </div>
+
+    <!-- breadcrub section-->
+    <div class="breadcrumb-section hero-section pb-60" style="background-image: url('assets/images/breadcrumb.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="title"></h2>
+                    <nav aria-label="breadcrumb" class="mt-20">
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- single-main-instructor-->
+    <div class="container">
+        <div class="filter-section single-main-instructor">
+            <div class="d-flex flex-wrap position-relative">
+                <div>
+                    <img class="ins-img mr-4" src="assets/images/user1.png" alt="">
+                </div>
+                <div class="instructor-info">
+                    <h3 class="mb-20 mt-20 mt-sm-0">prince real deo</h3>
+                    <span class="text-capitalize mr-4 d-inline-block">laravel developer</span>
+                    <span class="bg-green text-white rounded px-1 py-1"><i class="far fa-star"></i>
+                        4.5</span>
+                    <div class="social-icons justify-content-start d-flex mt-10">
+                        <a href="#" class="fb mr-2"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" class="tw mr-2"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#" class="in mr-2"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="ins"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <a href="#" class="btn live-chat">live chat</a>
+            </div>
+
+            <div class="row justify-content-center px-4 mt-30">
+                <div class="col-lg-4 col-sm-6 col-12 d-flex justify-content-center mb-30 wow fadeInUp">
+                    <div class="single-counter">
+                        <img src="assets/images/counter1.png" alt="" class="counter-img">
+                        <h3>150+</h3>
+                        <p class="mt-10 text-capitalize">reviews</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 d-flex justify-content-center mb-30 wow fadeInUp">
+                    <div class="single-counter">
+                        <img src="assets/images/counter3.png" alt="" class="counter-img">
+                        <h3>200+</h3>
+                        <p class="mt-10 text-capitalize">students</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 d-flex justify-content-center mb-30 wow fadeInUp">
+                    <div class="single-counter">
+                        <img src="assets/images/counter4.png" alt="" class="counter-img">
+                        <h3>200</h3>
+                        <p class="mt-10 text-capitalize">total course</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- aboout-section -->
+    <div class="aboout-section pt-115">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-30 mb-lg-0">
+                    <h4 class="mb-20">about instructor</h4>
+                    <p>I’m a certified coach and author. Over the years I've worked with and coached 100,000 students
+                        from all over the world. My expertise includes science-based personal development, health &
+                        fitness advice in the following areas:</p>
+                    <div class="d-flex flex-wrap justify-content-between">
+                        <ul>
+                            <li>- Self Improvement.</li>
+                            <li>- Life Coaching</li>
+                            <li> - Stress Management</li>
+                        </ul>
+                        <ul>
+                            <li>- Muscle Growth & Fat Loss</li>
+                            <li>- Healthy Living & Meal Planning</li>
+                            <li>- Gym Workouts & Bodybuilding</li>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-20">about education</h4>
+                    <p>I’m a certified coach and author. Over the years I've worked with and coached 100,000
+                        students
+                        from all over the world. My expertise includes science-based personal development,
+                        health &
+                        fitness advice in the following areas:</p>
+                    <div class="d-flex flex-wrap justify-content-between">
+                        <ul>
+                            <li><i class="fas fa-arrow-alt-circle-right"></i> ssociate in Physical Therapy
+                                from University of British Columbia</li>
+                            <li><i class="fas fa-arrow-alt-circle-right"></i> Bachelor of Arts in Psychology
+                                from Duke University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- all-course-section -->
+    <div class="all-course-section pt-110">
+        <div class="container">
+            <!-- main content -->
+            <h4 class="mb-20">Badges & Awards</h4>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-12 mb-30 wow fadeInUp">
+                    <div class="single-cat h-100">
+                        <img src="assets/images/cc1.png" alt="img" class="img-icon">
+                        <a href="#" class="d-block">
+                            <h4>Faitful User</h4>
+                        </a>
+                        <p class="mt-10">1 Years of Membership</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-30 wow fadeInDown">
+                    <div class="single-cat h-100">
+                        <img src="assets/images/cc2.png" alt="img" class="img-icon">
+                        <a href="#" class="d-block">
+                            <h4>ui &amp; ux design</h4>
+                        </a>
+                        <p class="mt-10">Best Designer Awwwards</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-30 wow fadeInUp">
+                    <div class="single-cat h-100">
+                        <img src="assets/images/cc3.png" alt="img" class="img-icon">
+                        <a href="#" class="d-block">
+                            <h4>Web Development</h4>
+                        </a>
+                        <p class="mt-10">Power Elite Author</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-30 wow fadeInDown">
+                    <div class="single-cat h-100">
+                        <img src="assets/images/cc4.png" alt="img" class="img-icon">
+                        <a href="#" class="d-block">
+                            <h4>Finance & Banking</h4>
+                        </a>
+                        <p class="mt-10">15 course</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- courses-section -->
+    <div class="courses-section pt-30 pb-50">
+        <div class="container">
+            <h4 class="mb-20">Badges & Awards</h4>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-md-6 col-12 mb-30">
+                    <div class="single-course h-100">
+                        <!-- top -->
+                        <a href="#">
+                            <span class="tag text-red bg-lite-red">beginner</span>
+                        </a>
+                        <a href="#">
+                            <span class="heart text-red bg-lite-red">
+                                <i class="far fa-heart"></i>
+                            </span>
+                        </a>
+                        <img src="assets/images/c1.png" alt="img" class="img-item mb-40">
+                        <!-- progress bar -->
+                        <div class="d-flex justify-content-between mb-10 align-items-center">
+                            <div class="progress w-75 bg-lite-red">
+                                <div class="progress-bar bg-red w-75" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span class="percentage bg-red text-white">75%</span>
+                                </div>
+                            </div>
+                            <h5 class="text-red">free</h5>
+                        </div>
+                        <!-- bottom -->
+                        <a href="#" class="mb-10 d-block">
+                            <h5>User Experience Design - Adobe XD UI UX Design</h5>
+                        </a>
+                        <div class="course-info-box d-flex justify-content-between mb-20 align-items-center">
+                            <h6>in <span class="text-red">web design</span></h6>
+                            <h6>enrolled<span class="text-red"> 20</span></h6>
+                            <span class="rating bg-lite-red p-1 font-bold">
+                                <span class="text-red">
+                                    <i class="far fa-star"></i>
+                                </span>4.5
+                            </span>
+                        </div>
+                        <div class="course-info-box-2 d-flex justify-content-between align-items-center mb-20">
+                            <h6><i class="fas fa-book-open"></i> 25 Classes</h6>
+                            <h6><i class="far fa-calendar"></i> 24 aug 2021</h6>
+                            <img src="assets/images/sm-user.png" alt="user" class="user-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-6 col-12 mb-30">
+                    <div class="single-course h-100">
+                        <!-- top -->
+                        <a href="#">
+                            <span class="tag text-green bg-lite-green">beginner</span>
+                        </a>
+                        <a href="#">
+                            <span class="heart text-green bg-lite-green">
+                                <i class="far fa-heart"></i>
+                            </span>
+                        </a>
+                        <img src="assets/images/c2.png" alt="img" class="img-item mb-40">
+                        <!-- progrees bar -->
+                        <div class="d-flex justify-content-between mb-10 align-items-center">
+                            <div class="progress w-75 bg-lite-red">
+                                <div class="progress-bar bg-green w-75" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span class="percentage bg-green text-white">75%</span>
+                                </div>
+                            </div>
+                            <h5 class="text-green">free</h5>
+                        </div>
+                        <!-- bottom -->
+                        <a href="#" class="mb-10 d-block">
+                            <h5>User Experience Design - Adobe XD UI UX Design</h5>
+                        </a>
+                        <div class="course-info-box d-flex justify-content-between mb-20 align-items-center">
+                            <h6>in <span class="text-green">web design</span></h6>
+                            <h6>enrolled<span class="text-green"> 20</span></h6>
+                            <span class="rating bg-lite-green p-1 font-bold">
+                                <span class="text-green">
+                                    <i class="far fa-star"></i>
+                                </span>4.5
+                            </span>
+                        </div>
+                        <div class="course-info-box-2 d-flex justify-content-between align-items-center mb-20">
+                            <h6><i class="fas fa-book-open"></i> 25 Classes</h6>
+                            <h6><i class="far fa-calendar"></i> 24 aug 2021</h6>
+                            <img src="assets/images/sm-user.png" alt="user" class="user-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-6 col-12 mb-30">
+                    <div class="single-course h-100">
+                        <!-- top -->
+                        <a href="#">
+                            <span class="tag text-cyan bg-lite-cyan">beginner</span>
+                        </a>
+                        <a href="#">
+                            <span class="heart text-cyan bg-lite-cyan">
+                                <i class="far fa-heart"></i>
+                            </span>
+                        </a>
+                        <img src="assets/images/c3.png" alt="img" class="img-item mb-40">
+                        <!-- progrees bar -->
+                        <div class="d-flex justify-content-between mb-10 align-items-center">
+                            <div class="progress w-75 bg-lite-cyan">
+                                <div class="progress-bar bg-cyan w-75" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span class="percentage bg-cyan text-white">75%</span>
+                                </div>
+                            </div>
+                            <h5 class="text-cyan">$250</h5>
+                        </div>
+                        <!-- bottom -->
+                        <a href="#" class="mb-10 d-block">
+                            <h5>User Experience Design - Adobe XD UI UX Design</h5>
+                        </a>
+                        <div class="course-info-box d-flex justify-content-between mb-20 align-items-center">
+                            <h6>in <span class="text-cyan">web design</span></h6>
+                            <h6>enrolled<span class="text-cyan"> 20</span></h6>
+                            <span class="rating bg-lite-cyan p-1 font-bold">
+                                <span class="text-cyan">
+                                    <i class="far fa-star"></i>
+                                </span>4.5
+                            </span>
+                        </div>
+                        <div class="course-info-box-2 d-flex justify-content-between align-items-center mb-20">
+                            <h6><i class="fas fa-book-open"></i> 25 Classes</h6>
+                            <h6><i class="far fa-calendar"></i> 24 aug 2021</h6>
+                            <img src="assets/images/sm-user.png" alt="user" class="user-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact-info-section-->
+    <div class="contact-info-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mt-30 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                    <div class="single-contact-info bg-lite-green h-100">
+                        <div class="row align-items-center">
+                            <div class="col-sm-8 col-12">
+                                <span class="title text-black">Are you instructor?</span>
+                                <span class="des mt-2 text-black">Already 200+ instructors</span>
+                                <button class="btn mt-4">join now</button>
+                            </div>
+                            <img src="/assets/images/contact1.png" alt="" class="mb-20 contact-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-30 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                    <div class="single-contact-info bg-lite-tomatto  h-100">
+                        <div class="row align-items-center">
+                            <div class="col-sm-8 col-12">
+                                <span class="title text-black">Are you student</span>
+                                <span class="des mt-2 text-black">Already 200+ instructors</span>
+                                <button class="btn btn3 mt-4">join now</button>
+                            </div>
+                            <img src="/assets/images/contact2.png" alt="" class="mb-20 contact-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-area">
+        <img src="assets/images/footer-vec11.png" alt="" class="footer-vec11">
+        <img src="assets/images/roll-vec.png" alt="" class="roll-vec">
+        <div class="container">
+            <!-- footer-top -->
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="widget">
+                            <div class="logo">
+                                <a href="index.html"> <img src="assets/images/logo.png" alt=""></a>
+                            </div>
+                            <ul>
+                                <li>0123456789</li>
+                                <li>Courselms@Mail.Com</li>
+
+                                <div class="social-icons justify-content-center justify-content-md-start d-flex mt-10">
+                                    <a href="#" class="fb"><i class="fab fa-facebook-square"></i></a>
+                                    <a href="#" class="tw"><i class="fab fa-twitter-square"></i></a>
+                                    <a href="#" class="in"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#" class="ins"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="widget">
+                            <h4 class="mb-20">more links</h4>
+                            <ul>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">terms of service</a></li>
+                                <li><a href="#">legal info</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="widget">
+                            <h4 class="mb-20">contact</h4>
+                            <ul>
+                                <li><a href="#">online form</a></li>
+                                <li><a href="#">support</a></li>
+                                <li><a href="#">contact us </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="widget">
+                            <h4 class="mb-20">company</h4>
+                            <div class="row align-items-center no-gutters">
+                                <div class="col-12 col-md-4">
+                                    <img src="assets/images/foo-icon.png" alt="img" class="company-img mr-5 d-block">
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <ul class="text-capitalize">
+                                        <li>infocourselms@.com</li>
+                                        <li>New york, 20 South Park
+                                            Avenue,</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- copyright area -->
+                <div class="copyright">
+                    <div class="row margin-top-20 align-items-center">
+                        <div class="col-lg-6 padding-10">
+                            <p> © 2021, Course lms</p>
+                        </div>
+                        <div class="col-lg-6 d-flex justify-content-end">
+                            <select class="select-item currency mb-3">
+                                <option>$ usd</option>
+                                <option value="1">$taka</option>
+                                <option value="2">$ rupee</option>
+                                <option value="4">$ euro</option>
+                            </select>
+
+                            <select class="select-item language mb-3">
+                                <option>english</option>
+                                <option value="1">bangla</option>
+                                <option value="2">arabic</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- scroll to up -->
+    <div class="scrollup"><i class="fas fa-angle-double-up"></i></div>
+
+    <!-- Javascript Files -->
+    <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/counterup.min.js"></script>
+    <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendor/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="assets/js/vendor/waypoints.min.js"></script>
+    <script src="assets/js/vendor/easing.min.js"></script>
+    <script src="assets/js/vendor/wow.min.js"></script>
+    <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
